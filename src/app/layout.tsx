@@ -4,7 +4,10 @@ import type { Metadata } from "next";
 
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  weight:['400', '500', '600', '700'],
+  subsets: ["latin"],
+  display: 'fallback' });
 
 import "./globals.css";
 import { Navigation } from "./components/navigation";
@@ -23,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <body
-        className={`antialiased max-w-[1480px] mx-auto px-[124px]`}
+        className={`antialiased max-w-[1728px] mx-auto px-[124px]`}
       >
         <header>
           <Navigation/>
