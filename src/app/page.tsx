@@ -42,7 +42,7 @@ export default function Home() {
                   <p className="text-[#2D68F8] text-base font-bold leading-[24px]">
                     Contact Us
                   </p>
-                  <h1 className="font-semibold xs:text-[20px] md:text-[42px] xs:leading-[20px] md:leading-auto text-black w-full">
+                  <h1 className="font-semibold xs:text-[20px] md:text-[42px] xs:leading-[20px] md:leading-normal text-black w-full">
                     Get In Touch With Us
                   </h1>
                   <p className="text-black w-full text-sm font-normal leading-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor</p>
